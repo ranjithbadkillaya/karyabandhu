@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 97vh;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 20px;
+
+
+}
+
+.main2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.loginpage {
+    
+    width: 50%;
+    /* height: 80vh; */
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    color: #1D5545;
+    /* border: 1px solid black; */
+
+}
+
+.details {
+    /* height: 25vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 1px solid blue; */
+    /* padding-bottom: 50px; */
+    margin-top: 20px;
+    
+ 
+}
+
+.or {
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    box-sizing: border-box;
+ 
+}
+
+.loginpage .register {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+
+
+}
+
+.loginpage .registeration {
+    color: red;
+    cursor: pointer;
+}
+
+
+ .details >button {
+    width: 100%;
+    height: 30px;
+    background: rgb(0, 71, 0);
+    color: white;
+   
+}
+
+.details >input {
+   border: 1px soild black;
+   width: 100%;
+   height: 30px;
+}
+
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 50%;
+    height: 97vh;
+    background: #9DC2B7;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 60%;
+    height: auto;
+
+}
+
+.appname {
+    color: rgb(255, 115, 0);
+}
+
+.hr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcomemsg{
+    width: 100%;
+    /* height: 22vh; */
+    gap: 15px;
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+  
+   
+}
+.welcome-msg-content{
+    
+}
+.welcome-msg-content>p{
+    font-size: 15px;
+}
+.otheroption{
+    width: 100%;
+    /* height: 25vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+
+
+/*resposive design*/
+
+@media (max-width: 790px) {
+    .image {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main2 {
+        width: 90%;
+        max-width: 400px;
+    }
+}
