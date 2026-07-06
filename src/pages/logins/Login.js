@@ -3,7 +3,6 @@ import './login.css'
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import loginimage from "./loginimage.png"
 import { Link } from "react-router-dom";
 import { useNavigate} from 'react-router-dom'
 import { useState } from 'react';
@@ -62,10 +61,10 @@ function loginvalue(e) {
           </div>
           <div className='otheroption'>
             <div className='hr'><p className='or'><hr /></p></div>
-            <div className='icons'>
+            <div className='login_icons'>
               <FcGoogle />
-              <FaApple />
-              <FaFacebook />
+              <FaApple className="apple" />
+              <FaFacebook className="facebook" /> 
             </div >
             <p className='register'>Not a Member? <span className='registeration'> <Link to="/signup">Register Now</Link> </span></p>
           </div>
@@ -75,8 +74,8 @@ function loginvalue(e) {
 
 
       </div>
-      <div className='image'>
-        <img src={loginimage} alt='Login' />
+      <div className='login_image'>
+        <img src="/login_signup_images/loginimage.png" alt="Login" />
       </div>
 
     </div>

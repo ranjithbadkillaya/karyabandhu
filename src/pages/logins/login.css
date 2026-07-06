@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: flex-start;
     font-family: 'Poppins', sans-serif;
-    color: #1D5545;
+   
     /* border: 1px solid black; */
 
 }
@@ -48,8 +48,16 @@
     /* border: 1px solid blue; */
     /* padding-bottom: 50px; */
     margin-top: 20px;
+     color: #1D5545;
     
  
+}
+.apple{
+    color:black;
+}
+
+.facebook{
+    color:#1877F2;
 }
 
 .or {
@@ -89,7 +97,7 @@
 }
 
 
-.icons {
+.login_icons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -99,7 +107,7 @@
     box-sizing: border-box;
 }
 
-.image {
+.login_image {
     width: 50%;
     height: 97vh;
     background: #9DC2B7;
@@ -110,7 +118,7 @@
     align-items: center;
 }
 
-.image img {
+.login_image>img {
     width: 60%;
     height: auto;
 
@@ -159,7 +167,7 @@
 /*resposive design*/
 
 @media (max-width: 790px) {
-    .image {
+    .login_image {
         display: none;
     }
 

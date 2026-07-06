@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items:center;
     font-family: 'Poppins', sans-serif; 
-    color: #1D5545;
+    
     /* border: 1px solid red; */
     gap: 20px;
      
@@ -41,8 +41,18 @@
     flex-direction: column;
     gap: 15px;
     width: 70%;
+  
+    color:#1D5545;
 
 
+
+}
+.apple{
+    color:black;
+}
+
+.facebook{
+    color:#1877F2;
 }
  .detail{
     width: 70%;
@@ -96,7 +106,7 @@
 } 
 
 
- .icon{
+ .signup_icon{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -106,7 +116,7 @@
    
 }
 
-.image{
+.signup_image{
    width: 50%;
     /* height: 97vh; */
     background: #9DC2B7; 
@@ -116,7 +126,7 @@
     justify-content: center;
     align-items: center;
 }
-.image img{
+.signup_image> img{
     width: 60%;
     height: auto;
 
@@ -154,7 +164,7 @@
 /*resposive design*/
 
 @media (max-width: 790px){
-   .image{
+   .signup_image{
     display: none;
    } 
    .main{

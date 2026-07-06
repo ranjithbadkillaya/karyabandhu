@@ -1,0 +1,21 @@
+ .card2{
+    width:50%;
+    background:#fff;
+    border:none;
+    border-radius:20px;
+    padding:35px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+.icon_symbol{
+    width:70px;
+    height:70px;
+    border-radius:16px;
+    background:#EAF4FD;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 

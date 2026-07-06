@@ -1,0 +1,12 @@
+.welcomebanner{
+    width:100%;
+    min-height:180px;
+    background:linear-gradient(135deg,#0071BC,#005999);
+    border-radius:24px;
+    padding:35px;
+    color:white;
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}

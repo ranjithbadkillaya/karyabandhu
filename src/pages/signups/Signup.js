@@ -3,7 +3,6 @@ import './signup.css'
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import signupimage from './signupimage.png'
 import { Link } from 'react-router-dom'
 
 function Signup({ changepage }) {
@@ -21,8 +20,8 @@ function Signup({ changepage }) {
     }
     return (
         <div className='main'>
-            <div className='image'>
-                <img src={signupimage} alt='signup' />
+            <div className='signup_image'>
+                <img src='login_signup_images/signupimage.png' alt='signupimage'/>
             </div>
             <div className='main2'>
                 <div className='signuppage'>
@@ -52,10 +51,10 @@ function Signup({ changepage }) {
                     </div>
                     <div className='otheroptions'>
                         <p className='or'>-----------OR-----------</p>
-                        <div className='icon'>
+                        <div className='signup_icon'>
                             <FcGoogle />
-                            <FaApple />
-                            <FaFacebook />
+                           <FaApple className="apple" />
+                           <FaFacebook className="facebook" />   
                         </div>
                         <p className='register'>Already have account? <span className='registeration'> <Link to="/">Login</Link></span></p>
                     </div>

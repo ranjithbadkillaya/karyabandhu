@@ -1,0 +1,45 @@
+.postjob_container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.job_form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
+}
+
+.job_form input,
+.job_form select,
+.job_form textarea{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.job_form textarea{
+    height:120px;
+}
+
+.job_form button{
+    width:180px;
+    height:45px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+.back_btn{
+    display:inline-block;
+    margin-bottom:15px;
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+}
+
+.back_btn:hover{
+    color:green;
+}
